@@ -1,0 +1,61 @@
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Environment Variables
+.env
+.env.*
+
+# IDE Files
+.vscode/
+.idea/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Type Checking
+.mypy_cache/
+.pyre/
+
+# LangChain / LLM Artifacts
+chroma_db/
+vectorstore/
+faiss_index/
+*.faiss
+*.pkl
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Secrets & Credentials
+credentials.json
+secrets.json
+
+# Python Version Manager
+.python-version
